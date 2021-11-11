@@ -56,6 +56,7 @@
 }
 
 .header__link {
+  text-decoration: none;
   color: #2f80ed;
 }
 
@@ -83,12 +84,7 @@
 /* ниже мы привели пример двух селекторов, чтобы вы вспомнили запись элемента */
 
 /* и элемента с модификатором вида ключ-значение */
-.table__cell_theme_dark {
-  width: 200px;
-  color: white;
-  margin-right: 0;
-  margin-top: 80px;
-}
+
 
 
 .description {
@@ -195,11 +191,8 @@ margin: 0px;
 .feynman {
   display: flex;
   flex-direction: column;
-  align-items: center;
   position: relative;
   min-height: 890px;
-  display: flex;
-  flex-direction: column;
   align-items: center;
   margin-top: 100px;
 }
@@ -270,10 +263,11 @@ z-index: -1;
 }
 
 .table_theme_dark {
-  margin: 0px 0px 90px 0px
+  margin: 0px 0px 90px 0px;
 }
 
 .table__cell_theme_dark {
+  color: white;
   width: 200px;
   margin: 80px 0 0 0;
 }
