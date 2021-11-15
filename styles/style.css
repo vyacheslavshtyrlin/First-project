@@ -54,11 +54,13 @@
   line-height: 25px;
   font-weight: normal;
   margin: 0;
+  z-index: 2;
 }
 
 .header__link {
   text-decoration: none;
   color: #2f80ed;
+  z-index: 2;
 }
 
 .header__main-illustration {
