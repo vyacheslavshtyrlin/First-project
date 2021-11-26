@@ -7,7 +7,6 @@
 @import url(./__quote-author/khan__quote-author.css);
 @import url(./__quote/khan__quote.css);
 @import url(../khan/__title/khan__title.css);
-@import url(../link/link.css);
 
 .khan {
   display: flex;
